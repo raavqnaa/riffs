@@ -8,11 +8,9 @@ app.use(cors());
 app.use(express.json());
 
 const tracks = [
-  { id: 1, title: "Track 1", artist: "Artist 1" },
-  { id: 2, title: "Track 2", artist: "Artist 2" },
-  { id: 2, title: "Track 2", artist: "Artist 2" },
-  { id: 2, title: "Track 2", artist: "Artisывывt 2" },
-  { id: 2, title: "Track 2", artist: "Artisывывt 2e" },
+  { id: 1, title: "Track 1", artist: "G-Eazy & Halsey - Him & I" },
+  { id: 2, title: "Track 2", artist: "Juice WRLD - Lucid Dreams" },
+  { id: 2, title: "Track 2", artist: "Justin Timberlake - Mirrors" },
 ];
 
 app.get("/", (req, res) => {
